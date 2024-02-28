@@ -1,7 +1,7 @@
 {
-  "name": "network",
+  "name": "network-chinese",
   "version": "0.6.1",
-  "description": "Cross platform network utilities for Node.js (gateway_ip, MAC address, etc)",
+  "description": "Fork 自 network ，解决了中文乱码问题 Cross platform network utilities for Node.js (gateway_ip, MAC address, etc)",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,15 +13,15 @@
     "async": "^1.5.2",
     "commander": "2.9.0",
     "needle": "^3.0.0",
-    "wmic": "^1.0.1"
+    "wmic-chinese": "^1.0.0"
   },
   "author": {
-    "name": "Tomas Pollak",
-    "email": "tomas@forkhq.com"
+    "name": "bzw1204",
+    "email": "374856393@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomas/network.git"
+    "url": "https://github.com/bzw1204/network.git"
   },
   "license": "MIT"
 }
